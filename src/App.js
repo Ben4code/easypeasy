@@ -1,5 +1,4 @@
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import './app.css';
 import Index from './components/Home/Index';
 import About from './components/About';
 import Blog from './components/Blog';
