@@ -1,0 +1,17 @@
+.header{
+    height: 50vh;
+    font-family: 'Work Sans',sans-serif;
+    
+    &__content{
+        height: 100%;
+        display: grid;
+        place-content: center;
+        color: white;
+        text-align: center;
+
+        & h1{
+            font-weight: 300;
+            font-size: 3rem;
+        }
+    }   
+}

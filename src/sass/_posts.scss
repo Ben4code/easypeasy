@@ -1,0 +1,9 @@
+.posts{
+    transform: translateY(-3.5rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    // width: 100%;
+    gap: 2rem;
+}

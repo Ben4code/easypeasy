@@ -1,0 +1,42 @@
+.navbar{
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+    height: 8vh;
+
+    &__blog {
+        top: 0;
+        left: 0;
+        background: black;
+        padding-top: 2.5rem;
+    }
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar__group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+.socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+}
